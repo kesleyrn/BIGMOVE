@@ -1,0 +1,28 @@
+.Navbar{
+    background-color: #dbc677;
+    height: 60px;
+    width: 100%;
+}
+
+ul{
+  
+   position: relative;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   gap:30px;
+   top: 10px;
+  
+   
+}
+a{
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+   font-size: 22px;
+   
+  
+}
+li{
+    list-style: none;
+}

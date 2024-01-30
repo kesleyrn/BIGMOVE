@@ -1,2 +1,0 @@
-# BIGMOVE
-react routing
