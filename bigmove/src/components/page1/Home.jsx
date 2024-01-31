@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import { Link } from 'react-router-dom'
 import Navbar from '../../pages/navbar/Nav'
 function home() {
   return (
@@ -14,7 +15,8 @@ function home() {
                 homep'>our mission is to enhance the efficiency of the environment policy analysis in Rwanda , striving for sustainable future by promoting informed decision-making environmental stewardship and improved publichealth
 
               </p></h4>
-                <button className='btn'>About</button>
+                <button className='btn'><Link to="/About"  >About</Link></button>
+              
             </div>
          </div>
          
